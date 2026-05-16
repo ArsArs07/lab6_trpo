@@ -10,8 +10,8 @@ namespace CalculatorApp.Tests
         public void Add_ReturnsCorrectSum()
         {
             Calculator calc = new Calculator();
-            int result = calc.Add(2, 3);
-            Assert.Equal(5, result);
+            int result = calc.Add(5, 6);
+            Assert.Equal(8, result);
         }
     }
 }
